@@ -1,0 +1,95 @@
+/* --------- Pagina do ministéRIO --------------- */
+.ministerio-destaque-principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 100%;
+    height: 452px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.ministerio-destaque-principal .titulo {
+    background-color: #003366;
+    padding: 10px;
+    color: #fff;
+    font-size: 1.2rem;
+    margin: 0 100px 0 20px;
+}
+.ministerio-destaque-principal .descricao {
+    padding: 3px;
+    color: #fff;
+    font-size: 0.9rem;
+    margin: 3px 20px 0 20px;
+}
+.ministerio-destaque-principal .data-autor {
+    padding: 3px;
+    color: #fff;
+    font-size: 0.8rem;
+    margin: 3px 20px 0 20px;
+}
+.ministerio-destaque-secundario {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 216px;
+    width: 100%;
+    padding: 0 20px;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    font-size: 1rem;
+    margin-bottom: 4px;
+}
+.ministerio-destaque-thirt {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: #fff;
+    height: 223px;
+    padding: 10px;
+    padding-left: 0 20px;
+    background-size: cover;
+    background-position: center;
+}
+
+.ministerio-banner {
+    padding: 300px 0;
+    background-size: cover;
+    background-position: center;
+}
+
+.departamento-noticias .principal .capa {
+    height: 265px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.departamento-noticias .principal .titulo {
+    padding-top: 10px;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.departamento-noticias .principal .data-autor {
+    font-size: 0.7rem;
+    font-weight: 900;
+    color: #999;
+}
+.departamento-noticias .principal .descricao {
+    font-size: 0.9rem;
+    font-weight: 100;
+}
+.departamento-noticias .secundario .capa {
+    background-size: cover;
+    background-position: center;
+    height: 85px;
+}
+.departamento-noticias .secundario .descricao {
+    font-size: 0.9rem;
+    font-weight: 100;
+}
+.departamento-noticias .secundario .data-autor {
+    font-size: 0.7rem;
+    font-weight: 900;
+    color: #999;
+}

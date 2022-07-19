@@ -1,0 +1,21 @@
+.sidebar-later {
+    background-color:  $primary-color;
+    color: $white;
+
+    .sidebar-content {
+        position: fixed;
+    }
+
+    .sidebar-logo {
+ 
+        width: 100%;
+        padding: 10px;
+        padding-top: 40px;
+        justify-content: center;
+        svg {
+            width: 75px;
+            height: 75px;
+        }
+
+    }
+}
