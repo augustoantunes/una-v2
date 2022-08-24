@@ -8347,6 +8347,17 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important; } }
 
+.container-global {
+  display: flex; }
+  .container-global .container-content {
+    flex: 0 0 auto;
+    width: 87.71%; }
+  .container-global .container-sevenday {
+    flex: 0 0 auto;
+    width: 12.28%;
+    display: flex;
+    justify-content: center; }
+
 .sidebar-later {
   background-color: #003366;
   color: #fff; }
@@ -8360,6 +8371,19 @@ textarea.form-control-lg {
     .sidebar-later .sidebar-logo svg {
       width: 75px;
       height: 75px; }
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  .container-global {
+    display: flex; }
+    .container-global .container-content {
+      flex: 0 0 auto;
+      width: 85.71%; }
+    .container-global .container-sevenday {
+      flex: 0 0 auto;
+      width: 14.28%; }
+      .container-global .container-sevenday .sidebar-logo svg {
+        width: 25px;
+        height: 25px; } }
 
 /*
     Configuração de menu
@@ -8396,10 +8420,21 @@ textarea.form-control-lg {
 /* Menu Principal do Site */
 #navSitePrincipal {
   position: fixed;
-  width: 91.6%;
+  width: 87.71%;
   z-index: 100000;
   background-color: transparent;
   color: #fff; }
+
+.single-page-post {
+  border-top: 1px solid #eee; }
+  .single-page-post .nav-link {
+    color: #003366 !important; }
+
+.nav-site-principal {
+  transition: all 0.3s;
+  padding-top: 40px; }
+  .nav-site-principal svg {
+    fill: #fff; }
 
 .nav-site-principal-top {
   background-color: #ffff !important;
@@ -8408,16 +8443,26 @@ textarea.form-control-lg {
   top: 0 !important;
   color: #003366;
   transition: all 0.3s; }
-
-.nav-site-principal {
-  transition: all 0.3s;
-  padding-top: 40px; }
+  .nav-site-principal-top svg {
+    fill: #003366; }
 
 .nav-site-principal .nav-link {
-  color: #ffffff !important; }
+  color: #ffffff; }
 
 .nav-site-principal-top .nav-link {
   color: #003366 !important; }
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  .nav-top-page {
+    display: none !important; }
+  .nav-site-principal .navbar-brand svg {
+    width: 150px; }
+  #navSitePrincipal {
+    position: fixed;
+    width: 85.71%;
+    z-index: 100000;
+    background-color: transparent;
+    color: #fff; } }
 
 /* Secção de Carrousel */
 .home .carousel-inner {
@@ -8461,6 +8506,12 @@ textarea.form-control-lg {
 .carousel-inner img {
   width: 100%;
   height: 500px; }
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  .carousel-principal .titulo {
+    font-size: 1.2rem; }
+  .carousel-principal p {
+    display: none; } }
 
 .ministerio-single-page {
   padding: 200px 0 80px 0;
@@ -8594,4 +8645,52 @@ textarea.form-control-lg {
   font-size: 0.7rem;
   font-weight: 900;
   color: #999; }
+
+.container-pastores-ministeriais .card-ministerial {
+  justify-content: center;
+  text-align: center;
+  padding: 3rem 4rem;
+  border-radius: 8px; }
+  .container-pastores-ministeriais .card-ministerial img {
+    width: 15rem;
+    height: 13rem;
+    border-radius: 100%; }
+  .container-pastores-ministeriais .card-ministerial .section-cargo {
+    display: flex;
+    justify-content: center;
+    line-height: 50px;
+    align-self: flex-end;
+    align-items: flex-end;
+    padding: 10px 10px; }
+    .container-pastores-ministeriais .card-ministerial .section-cargo .cargo {
+      font-size: 1.2rem;
+      margin: 0;
+      text-transform: uppercase; }
+    .container-pastores-ministeriais .card-ministerial .section-cargo svg {
+      width: 30px;
+      height: 30px; }
+  .container-pastores-ministeriais .card-ministerial span {
+    display: block;
+    font-size: 1.6rem;
+    width: 100%;
+    text-align: center; }
+  .container-pastores-ministeriais .card-ministerial a {
+    color: #003366;
+    border: 1px solid #003366;
+    background-color: transparent;
+    padding: .4rem 2rem;
+    margin-top: 1rem; }
+
+.container-content-biografia .nome {
+  color: #7f264a; }
+
+.container-content-biografia .breve-descricao {
+  display: block;
+  padding-top: 2rem;
+  font-size: 1.3rem;
+  color: #003366; }
+
+.container-content-biografia .longa-descricao {
+  font-size: 1rem;
+  margin-top: 3rem; }
 

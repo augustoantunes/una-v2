@@ -1,0 +1,15 @@
+.container-content-biografia {
+    .nome {
+        color: $Grapevine;
+    }
+    .breve-descricao {
+        display: block;
+        padding-top: 2rem;
+        font-size: 1.3rem;
+        color: $primary-color;
+    }
+    .longa-descricao {
+        font-size: 1rem;
+        margin-top: 3rem;
+    }
+}

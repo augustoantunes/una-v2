@@ -46,3 +46,16 @@
     height: 500px;
 }
 
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+    .carousel-principal {
+  
+        .titulo {
+            font-size: 1.2rem;
+        }
+
+        p {
+            display: none;
+        }
+    }
+}
